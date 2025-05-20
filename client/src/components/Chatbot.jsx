@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import axios from 'axios'
+import axios from 'axios';
 
 const Chatbot = () => {
     const [loading, setLoading] = useState();
