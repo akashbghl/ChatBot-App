@@ -30,7 +30,7 @@ const Chatbot = () => {
         // Call the API and replace the last bot message with real response
         setTimeout(async () => {
             try {
-                const res = await axios.post('http://localhost:8000/api/response', {
+                const res = await axios.post('https://chatbot-backend-xrbc.onrender.com/api/response', {
                     type: 'user',
                     text: input,
                 });
