@@ -7,7 +7,6 @@ import { GoogleGenAI } from '@google/genai';
 const router = express.Router();
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-console.log('API IS , ', process.env.GEMINI_API_KEY);
 
 // route 
 router.post('/response', async (req, res) => {
