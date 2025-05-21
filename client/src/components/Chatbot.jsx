@@ -61,12 +61,12 @@ const Chatbot = () => {
 
 
     return (
-        <div className="flex flex-col float-end shadow-md border border-gray-300 h-full w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
+        <div className="flex flex-col float-end shadow-md border border-gray-300 h-[100dvh] w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
             <header className="bg-blue-600 text-white text-center p-4 text-xl font-semibold">
                 Your ChatBot App
             </header>
 
-            <div className="flex-1 overflow-y-auto p-4 space-y-4 whitespace-pre-wrap ">
+            <div className="flex-1 overflow-y-auto px-4 pt-4 space-y-4 whitespace-pre-wrap ">
                 {messages.map((msg, idx) => {
                     const isNew = idx === messages.length - 1;
                     return (
@@ -84,7 +84,7 @@ const Chatbot = () => {
             <div ref={bottomRef} />
             </div>
 
-            <footer className="p-4 bg-white border-t bottom-0 border-gray-300 shadow flex">
+            <footer className="flex-none p-4 bg-white border-t bottom-0 border-gray-300 shadow flex">
                 <input
                     type="text"
                     className="flex-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
