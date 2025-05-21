@@ -61,7 +61,7 @@ const Chatbot = () => {
 
 
     return (
-        <div className=" flex flex-col float-end shadow-md border border-gray-300 h-[100dvh] w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
+        <div className="flex flex-col float-end shadow-md border border-gray-300 h-[95dvh] sm:h-screen w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
             <header className="bg-blue-600 text-white text-center p-4 text-xl font-semibold">
                 Your ChatBot App
             </header>
@@ -84,7 +84,7 @@ const Chatbot = () => {
             <div ref={bottomRef} />
             </div>
 
-            <footer className="flex-none px-4 pt-4 bg-white border-t bottom-0 border-gray-300 shadow flex">
+            <footer className="flex-none p-4 bg-white border-t  border-gray-300 shadow flex">
                 <input
                     type="text"
                     className="flex-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
