@@ -61,7 +61,7 @@ const Chatbot = () => {
 
 
     return (
-        <div className="flex flex-col float-end shadow-md border border-gray-300 h-[100dvh] w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
+        <div className="flex flex-col float-end shadow-md border border-gray-300 h-full w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
             <header className="bg-blue-600 text-white text-center p-4 text-xl font-semibold">
                 Your ChatBot App
             </header>
