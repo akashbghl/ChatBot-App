@@ -61,7 +61,7 @@ const Chatbot = () => {
 
 
     return (
-        <div className="flex flex-col float-end shadow-md border border-gray-300 w-full xs:w-[75%] sm:w-[75%] h-screen bg-gray-100">
+        <div className="flex flex-col float-end shadow-md border border-gray-300 h-[100dvh] w-full xs:w-[75%] sm:w-[75%]  bg-gray-100">
             <header className="bg-blue-600 text-white text-center p-4 text-xl font-semibold">
                 Your ChatBot App
             </header>
@@ -84,7 +84,7 @@ const Chatbot = () => {
             <div ref={bottomRef} />
             </div>
 
-            <footer className="p-4 bg-white border-t border-gray-300 shadow flex">
+            <footer className="p-4 bg-white border-t bottom-0 border-gray-300 shadow flex">
                 <input
                     type="text"
                     className="flex-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
@@ -95,7 +95,7 @@ const Chatbot = () => {
                 />
                 <button
                     onClick={handleSend}
-                    className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+                    className="ml-2 px-4 py-2 bg-blue-600  text-white rounded-md hover:bg-blue-700"
                 >
                     Send
                 </button>
